@@ -59,7 +59,7 @@ class LinkedList{
             tempNode?.nextNode = newNode
             return true
         }else{
-            print("Error: Couldn't insert at given position.")
+            print("Error: Couldn't item insert at given position.")
             return false
         }
     }
